@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .one, footer .two, footer .three, footer .four, footer .five {
+    padding: 20px;
+}
+
+footer .one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .one .wel {
+    max-width: 50%;
+}
+
+footer .one select, footer .one button {
+    margin-top: 10px;
+}
+
+footer .one .bike img {
+    width: 300px;
+    height: auto;
+}
+
+footer .two, footer .four {
+    text-align: center;
+}
+
+footer .three {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .three .box {
+    background-color: #444;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer .three .box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer .three .box p {
+    margin: 10px 0;
+}
+
+footer .five {
+    background-color: #333;
+    padding: 20px;
+}
+
+footer .five form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .five input, footer .five select, footer .five button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer .five button {
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .five button:hover {
+    background-color: #ff4500;
+}
